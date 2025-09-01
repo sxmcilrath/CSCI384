@@ -2,5 +2,12 @@
 Python documentation, StackOverflow, etc. Did this help you learn, or 
 did it hinder you from figuring it out on your own?)
 
-Looked up on google what does a dictionary return in python when you try to access a value that isn't there then 
+-Looked up on google what does a dictionary return in python when you try to access a value that isn't there then 
 found the .get() method and then just looked up python dictionary documentation as well.
+-Googled how to find index of char in string.
+-googled how to replace char in string -> strings are immutable -> found a stack overflow post using .join with a list
+-looked up how to do foreach loop/enumeration for string
+-made sure you can subtract chars in python, just googled that
+
+After all my answers passed I put everything into GPT and asked what was the most efficient way to do all of this.
+Didn't use those answers but just wanted to see what capabilities python has that I didn't know existed. 
