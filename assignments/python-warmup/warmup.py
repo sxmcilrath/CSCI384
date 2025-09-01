@@ -6,7 +6,18 @@ CSCI 384, Wheaton College (IL)
 '''
 
 def bigram_freq(text) :
-     pass
+     #just need to iterate through text and either make a new entry in dict
+     #or inc when seen again
+     #currently assuming len(text) > 1
+     dict = {}
+     j = 1;
+     for i in range(len(text) - 1 ):
+          if(dict.get(text[i:i+2]) is None):
+               dict[text[i:i+2]] = 1;
+          else:
+               dict[text[i:i+2]] += 1;
+     
+     return dict
 
 # Use this to check if a character is a letter
 alphacap = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'

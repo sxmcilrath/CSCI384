@@ -1,3 +1,6 @@
 (Report here on what resources you used---classmates, Github CoPilot, 
 Python documentation, StackOverflow, etc. Did this help you learn, or 
 did it hinder you from figuring it out on your own?)
+
+Looked up on google what does a dictionary return in python when you try to access a value that isn't there then 
+found the .get() method and then just looked up python dictionary documentation as well.
